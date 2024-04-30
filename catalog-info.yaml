@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dsd.dsd
+  description: dsd
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: amugagaadv/testPlayds
+  links:
+    - url: https://devspaces.apps.ansible-rhdh.testing.ansible.com/#https://github.com/amugagaadv/testPlayds
+      title: Open in Ansible development workspaces
+      icon: web
+spec:
+  type: playbook-project
+  system: Paul
+  lifecycle: production
+  owner: Sagar
